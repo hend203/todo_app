@@ -1,7 +1,6 @@
 import 'package:conditional_builder_null_safety/conditional_builder_null_safety.dart';
 import 'package:todo/shared/cubit/cubit.dart';
 import 'package:flutter/material.dart';
-// import 'package:path/path.dart';
 
 Widget defaultFormField({
   required TextEditingController controller,
@@ -38,14 +37,6 @@ Widget defaultFormField({
     ),
   );
 }
-
-// class buildTaskItem extends StatelessWidget {
-//   const buildTaskItem({super.key});
-
-//   @override
-//   Widget build(BuildContext context) {
-//     return TaskItem();
-//   }
 
 Widget buildTaskItem(Map task, context) {
   return Dismissible(

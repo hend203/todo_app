@@ -1,25 +1,12 @@
-// ignore_for_file: avoid_print
-
 import 'package:todo/shared/components/components.dart';
-// import 'package:first/modules/archived_tasks/archived_tasks.dart';
+
 import 'package:conditional_builder_null_safety/conditional_builder_null_safety.dart';
-// import 'package:first/modules/done_tasks/done_tasks.dart';
-// import 'package:first/modules/new_tasks/new_tasks.dart';
-// import 'package:first/shared/components/constants.dart';
+
 import 'package:todo/shared/cubit/cubit.dart';
 import 'package:todo/shared/cubit/states.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:intl/intl.dart';
-// import 'package:sqflite/sqflite.dart';
-
-// 1.create database
-// 2.create tables
-// 3.open database
-// 4.insert data to database
-// 5.get data from database
-// 6.update data in database
-// 7.delete data from database
 
 class HomeLayout extends StatelessWidget {
   HomeLayout({super.key});
